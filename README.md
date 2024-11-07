@@ -43,7 +43,6 @@ git add .
 
 git commit -m "Deskripsi yang diganti atau di fix"
 
-<h1> Tergantung lagi sama timnya </h1>
 git push -u origin backend-team
 git push -u origin frontend-team
 
