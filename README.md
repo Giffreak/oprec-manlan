@@ -16,15 +16,39 @@ Admin
 [Link Website - Oprec Manlan](http://webku.one/manlan)
 
 
-<h1><b>Cara Instalasi Githubnyahhh</b></h1>
+<h1><b>Cara Push GIT di repo kita</b></h1>
 
-composer install
+git init
 
-npm install
+git add . 
 
-chmod -R 777 application/cache
-chmod -R 777 application/logs
+git commit -m "infromasiin terkait apa yang diubah ya gais"
 
-diubah di halaman ('config.php')
-$config['base_url'] = 'http://localhost/nama_proyek/';
+git remote add origin https://github.com/Giffreak/oprec-manlan.git
 
+## Tergantung tim masing masing gengs
+git checkout frontend-team
+git checkout backend-team
+
+## Tergantung tim masing masing
+git push -u origin backend-team
+git push -u origin frontend-team
+
+
+
+<h1><b>Kalo udah pernah push ke repo git ini gausah di git add lagi</b></h1>
+
+
+Tata Caranya : 
+
+git add .
+
+git commit -m "Deskripsi yang diganti atau di fix"
+
+## Tergantung lagi sama timnya
+git push -u origin backend-team
+git push -u origin frontend-team
+
+<b> NOTES : JANGAN PUSH KE MAIN, SEMUA YANG BARU MAU PUSH DILIAT DULUU ADA DI BRANCH MANAAA, MAIN CUMAN BUAT GUA MERGE DARI TIM MASING MASING.
+
+SAMPE ADA YANG PUSH DI MAIN, GUA GANYANG FUFUFAFA :V</b>
