@@ -1,0 +1,47 @@
+# Sistem CodeIgniter
+system/
+
+# Direktori cache
+application/cache/*
+!application/cache/index.html
+
+# Direktori logs
+application/logs/*
+!application/logs/index.html
+
+# File konfigurasi khusus
+application/config/database.php
+
+# File upload
+uploads/
+
+# File environment lokal
+.env
+
+# File dan folder sementara atau konfigurasi editor
+*.sublime-project
+*.sublime-workspace
+*.phpstorm.meta.php
+.vscode/
+.idea/
+.DS_Store
+
+# Sistem operasi
+Thumbs.db
+desktop.ini
+
+# Composer vendor folder
+vendor/
+
+# File Composer dan npm lock (opsional jika menggunakan npm)
+composer.lock
+package-lock.json
+
+# File konfigurasi Composer atau npm (opsional jika menggunakan npm)
+composer.phar
+node_modules/
+npm-debug.log
+yarn-error.log
+
+assets/*
+user_guide/*
