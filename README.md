@@ -36,7 +36,7 @@ git push -u origin frontend-team
 
 
 
-<h1><b>Kalo udah pernah push ke repo git ini gausah di git add lagi</b></h1>
+<h1><b>Kalo udah pernah push ke repo git ini gausah di git remote lagi</b></h1>
 
 
 Tata Caranya : 
