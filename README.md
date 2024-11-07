@@ -26,11 +26,11 @@ git commit -m "infromasiin terkait apa yang diubah ya gais"
 
 git remote add origin https://github.com/Giffreak/oprec-manlan.git
 
-## Tergantung tim masing masing gengs
+<h1>Tergantung tim masing masing </h1>
 git checkout frontend-team
 git checkout backend-team
 
-## Tergantung tim masing masing
+<h1>Tergantung tim masing masing </h1>
 git push -u origin backend-team
 git push -u origin frontend-team
 
@@ -45,7 +45,7 @@ git add .
 
 git commit -m "Deskripsi yang diganti atau di fix"
 
-## Tergantung lagi sama timnya
+<h1> Tergantung lagi sama timnya </h1>
 git push -u origin backend-team
 git push -u origin frontend-team
 
